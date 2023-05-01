@@ -5,11 +5,6 @@ import datetime
 
 class Cronograma(models.Model):
     nome = models.CharField(max_length=50)
-
-    class Meta:
-        verbose_name = _("")
-        verbose_name_plural = _("s")
-
     def __str__(self):
         return self.nome
 
