@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     # 'social_django', # Python social auth django app
     'apps.orcamento',
     'apps.cronograma',
+    'apps.publicacao',
 ]
 
 MIDDLEWARE = [
